@@ -117,6 +117,7 @@ angular.module('memoramaApp')
 
   	$scope.revolver();
 
+  	
 
 
   });
