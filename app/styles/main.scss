@@ -48,6 +48,36 @@ body {
   margin: 30px 0;
 }
 
+.carta{
+  background: rgb(211, 181, 181);
+  color: #5C5C5C;
+  text-align: center;
+  vertical-align: middle;
+  padding: 50px;
+  margin-bottom: 15px;
+  border-radius: 10px 0 10px 0;
+  border: solid 2px rgb(182, 144, 144);
+  font-size: 20px;
+  transition: all 0.3s ease;
+
+  &:hover{
+    background: #D7A5A5;
+    cursor: pointer;
+    box-shadow: 0 0 10px #888;
+  }
+}
+.carta.volteada{
+  font-weight: bold;
+  color:black;
+}
+
+.carta.descubierta{
+  background: #B5CDD3;
+  font-weight: bold;
+  border: solid 2px #9095B6;
+  color:black;
+}
+
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
